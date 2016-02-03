@@ -3,9 +3,11 @@ body {
 
   background-image: url('http://i.imgur.com/I9ZCRa9.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top center;
   background-attachment: fixed;
+  background-position: top center;
+  background-size: cover;
+  -webkit-background-size: cover;
+
   padding-bottom: 0px;
   overflow-x: hidden;
 }
