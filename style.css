@@ -11,7 +11,7 @@ body {
 
 header {
   position: relative;
-  height: 900px;
+  height: 850px;
   padding:0;
   margin: 0;
 }
@@ -30,13 +30,13 @@ nav {
   margin-left:-150px;
   margin-bottom:-1px;
   padding: 0;
-  padding-top:50px;
+  padding-top:100px;
 
   height:400px;
-  width: 300px;
+  width: 350px;
 
-  border-top-left-radius:20px;
-  border-top-right-radius:20px;
+  border-top-left-radius:200px;
+  border-top-right-radius:200px;
 
   background: #ffffff;
 
@@ -69,7 +69,6 @@ nav a {
 }
 
 nav a:hover, nav a:focus{
-
   color: #00ace5;
   text-decoration: none;
   transition: color 400ms ease-in, text-shadow 700ms ease-in;
@@ -81,21 +80,22 @@ footer{
   background-color: #ffffff;
   font-size: 1.1em;
   text-align: center;
-  padding-bottom: 5px;
+  padding-bottom: 62px;
   text-transform: uppercase;
 }
 
 main#content {
   display: flex;
   flex-direction: column;
-  min-height: 600px;
+  min-height: 500px;
   padding-top: 20px;
-  padding-bottom: 640px;
+  padding-bottom: 475px;
   align-items: center;
 
   background: #ffffff;
   font-size: 1.5em;
 }
+
 main#content article{
   min-width: 400px;
   max-width: 800px;
@@ -136,6 +136,7 @@ main#content h2 {
   vertical-align: top;
   text-align: left;
 }
+
 #team .member .profile h3{
   margin: 0;
 }
