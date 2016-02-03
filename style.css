@@ -1,0 +1,141 @@
+body {
+  font-family: "Raleway",Arial,sans-serif;
+
+  background-image: url('http://i.imgur.com/I9ZCRa9.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+  padding-bottom: 0px;
+}
+
+header {
+  position: relative;
+  height: 900px;
+  padding:0;
+  margin: 0;
+}
+
+header h1 {
+  display: none;
+}
+
+nav {
+  display:inline-block;
+  position:absolute;
+  left: 50%;
+  bottom:0;
+
+  margin:0;
+  margin-left:-150px;
+  margin-bottom:-1px;
+  padding: 0;
+  padding-top:50px;
+
+  height:400px;
+  width: 300px;
+
+  border-top-left-radius:20px;
+  border-top-right-radius:20px;
+
+  background: #ffffff;
+
+  text-align:center;
+}
+
+nav ul {
+  display:inline-block;
+  width:150px;
+  list-style: none;
+  padding: 0;
+  padding-top:50px;
+}
+
+nav li {
+  border-color:#BBBBBB;
+  border-top-style: solid;
+  border-width:1px;
+  text-transform:uppercase;
+  font-size:1.1em;
+  padding: 13px 0;
+}
+
+nav li:last-child{
+  border-bottom-style:solid;
+}
+
+nav a {
+  color: #888888;
+}
+
+nav a:hover, nav a:focus{
+
+  color: #00ace5;
+  text-decoration: none;
+  transition: color 400ms ease-in, text-shadow 700ms ease-in;
+  text-shadow: 0 0 1px #006789;
+  outline:none;
+}
+
+footer{
+  background-color: #ffffff;
+  font-size: 1.1em;
+  text-align: center;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+
+main#content {
+  display: flex;
+  flex-direction: column;
+  min-height: 600px;
+  padding-top: 20px;
+  padding-bottom: 640px;
+  align-items: center;
+
+  background: #ffffff;
+  font-size: 1.5em;
+}
+main#content article{
+  min-width: 400px;
+  max-width: 800px;
+  width: 90%;
+  padding: 0 10px;
+  text-align:left;
+}
+
+main#content section{
+  padding: 80px 0;
+  border-bottom: 1px solid #bbbbbb;
+}
+main#content section:last-child{
+  border-bottom: none;
+}
+
+main#content h2 {
+  color: #0dabe0;
+}
+
+#team .member{
+  padding: 50px 0;
+  text-align: center;
+}
+
+#team .member .headshot{
+  display:inline-block;
+  vertical-align: top;
+  margin-right:30px;
+  margin-bottom: 30px;
+  width:150px;
+}
+
+#team .member .profile{
+  display:inline-block;
+  min-width:100px;
+  max-width:550px;
+  vertical-align: top;
+  text-align: left;
+}
+#team .member .profile h3{
+  margin: 0;
+}
