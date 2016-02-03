@@ -27,7 +27,7 @@ nav {
   bottom:0;
 
   margin:0;
-  margin-left:-150px;
+  margin-left:-175px;
   margin-bottom:-1px;
   padding: 0;
   padding-top:100px;
@@ -99,8 +99,8 @@ main#content {
 main#content article{
   min-width: 400px;
   max-width: 800px;
-  width: 90%;
-  padding: 0 10px;
+  width: 80%;
+  padding: 0 20px;
   text-align:left;
 }
 
