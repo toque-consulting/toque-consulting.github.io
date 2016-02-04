@@ -148,3 +148,8 @@ main#content h2 {
 #contact {
   min-height: 100vh;
 }
+
+#contact .form-control {
+  margin-bottom: 20px;
+}
+}
