@@ -91,9 +91,11 @@
         	We would love to get in touch with you at your earliest convenience. Please provide us
         	with your contact information and we will respond as soon as we can.
         	
-        	<form>
-	        	<input type="email" class="form-control" placeholder="Email" required> 
-	        	<textarea class="form-control" rows="5" placeholder="Enter your message..." required></textarea>
+        	<form action="//formspree.io/toqueconsulting@mailinator.com">
+        		<input type="text" name="_gotcha" style="display:none" />
+        		<input type="hidden" name="_subject" value="Toque Consulting Request" />
+	        	<input type="email" class="form-control" placeholder="Email" name="_replyto" required> 
+	        	<textarea class="form-control" rows="5" name="message" placeholder="Enter your message..." required></textarea>
 	        	<button class="btn btn-primary pull-right" type="submit">Send</button>
         	</form>
         </p>
